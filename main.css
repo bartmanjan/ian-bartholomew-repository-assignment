@@ -1,0 +1,26 @@
+
+.cen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email-input {
+    display: flex;
+    height: 400px;
+    width: 45%;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 5px 10px #888888;
+
+}
+.box-3 {
+    color: whitesmoke;
+    background-color: #1c66b6;
+    border-radius: 10px;
+    width: 80px;
+    -webkit-box-shadow: 8px 7px 7px 4px rgba(0,0,0,0.45);
+-moz-box-shadow: 8px 7px 7px 4px rgba(0,0,0,0.45);
+box-shadow: 8px 7px 7px 4px rgba(0,0,0,0.45);
+}
