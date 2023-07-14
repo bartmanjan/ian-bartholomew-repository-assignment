@@ -1,26 +1,53 @@
+body {
+   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    height: 100vh;
+}
 
-.cen {
+
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
+    height:100%;
+    width:100%;
+    background-color: burlywood;
+    background-image: url("https://www.allrecipes.com/thmb/UalTeBUj1SwuEykKaJzaipwawtg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/62808_VietnameseBeef-NoodleSoup365-S-Jennifer-Causey-a60cd6ff5aad4407b896aefede659928.jpg");
+    background-size: cover;
+    background-position: center;
+    border:
+
 }
-.email-input {
+.info-box {
     display: flex;
-    height: 400px;
-    width: 45%;
+    height: 300px;
+    width: 300px;
+    min-width: 40px;
     justify-content:center;
     align-items:center;
     flex-direction: column;
+    border: 8px inset rgb(210, 27, 27);
+    border-radius: 5px;
     gap: 10px;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 8px #888888;
+    
+    
 
-}
-.box-3 {
+} 
+.login-button {
     color: whitesmoke;
     background-color: #1c66b6;
     border-radius: 10px;
     width: 80px;
     -webkit-box-shadow: 8px 7px 7px 4px rgba(0,0,0,0.45);
 -moz-box-shadow: 8px 7px 7px 4px rgba(0,0,0,0.45);
-box-shadow: 8px 7px 7px 4px rgba(0,0,0,0.45);
+ box-shadow: 8px 7px 7px 4px rgba(0,0,0,0.45);
+}
+
+.title-prompt {
+    color: whitesmoke
 }
